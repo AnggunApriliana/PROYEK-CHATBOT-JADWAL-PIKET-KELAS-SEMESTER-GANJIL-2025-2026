@@ -1,0 +1,25 @@
+{
+    "intents": [
+      {
+        "tag": "piket_hari_ini",
+        "patterns": ["Siapa yang piket hari ini?", "Hari ini siapa yang bertugas?", "Piket hari ini siapa?"],
+        "responses": ["Hari ini yang piket adalah ..."]
+      },
+      {
+        "tag": "piket_hari_tertentu",
+        "patterns": ["Siapa yang piket hari Jumat?", "Piket hari Senin siapa?", "Siapa piket hari Rabu?"],
+        "responses": ["Yang piket hari tersebut adalah ..."]
+      },
+      {
+        "tag": "piket_berdasarkan_kelas",
+        "patterns": ["Siapa yang piket dari kelas X IPA 1?", "Piket kelas X IPA 2 siapa?", "Kelas XI IPS 3 siapa yang piket?"],
+        "responses": ["Berikut jadwal piket kelas tersebut ..."]
+      },
+      {
+        "tag": "piket_berdasarkan_nama",
+        "patterns": ["Kapan Andi piket?", "Hari apa Rina piket?", "Piketnya Budi hari apa?"],
+        "responses": ["Dia piket pada hari ..."]
+      }
+    ]
+  }
+  

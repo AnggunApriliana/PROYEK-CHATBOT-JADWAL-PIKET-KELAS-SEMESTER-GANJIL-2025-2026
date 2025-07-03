@@ -1,0 +1,72 @@
+intent,text,entity
+piket_hari_ini,Apa saja jadwal piket hari ini?,
+piket_hari_ini,Hari ini siapa yang piket?,
+piket_hari_ini,Siapa yang bertugas piket hari ini?,
+piket_hari_ini,Piket hari ini siapa saja?,
+piket_hari_ini,Siapa saja yang piket hari ini dan tugasnya apa?,
+
+piket_hari_tertentu,Siapa yang piket hari Senin?,hari=Senin
+piket_hari_tertentu,Jadwal piket hari Senin siapa?,hari=Senin
+piket_hari_tertentu,Senin siapa yang piket?,hari=Senin
+piket_hari_tertentu,Tugas piket hari Senin apa saja?,hari=Senin
+piket_hari_tertentu,Ada siapa saja yang piket hari Senin?,hari=Senin
+
+piket_hari_tertentu,Siapa yang piket hari Selasa?,hari=Selasa
+piket_hari_tertentu,Jadwal piket hari Selasa siapa?,hari=Selasa
+piket_hari_tertentu,Selasa siapa yang piket?,hari=Selasa
+piket_hari_tertentu,Tugas piket hari Selasa apa saja?,hari=Selasa
+piket_hari_tertentu,Ada siapa saja yang piket hari Selasa?,hari=Selasa
+
+piket_hari_tertentu,Siapa yang piket hari Rabu?,hari=Rabu
+piket_hari_tertentu,Jadwal piket hari Rabu siapa?,hari=Rabu
+piket_hari_tertentu,Rabu siapa yang piket?,hari=Rabu
+piket_hari_tertentu,Tugas piket hari Rabu apa saja?,hari=Rabu
+piket_hari_tertentu,Ada siapa saja yang piket hari Rabu?,hari=Rabu
+
+piket_hari_tertentu,Siapa yang piket hari Kamis?,hari=Kamis
+piket_hari_tertentu,Jadwal piket hari Kamis siapa?,hari=Kamis
+piket_hari_tertentu,Kamis siapa yang piket?,hari=Kamis
+piket_hari_tertentu,Tugas piket hari Kamis apa saja?,hari=Kamis
+piket_hari_tertentu,Ada siapa saja yang piket hari Kamis?,hari=Kamis
+
+piket_hari_tertentu,Siapa yang piket hari Jumat?,hari=Jumat
+piket_hari_tertentu,Jadwal piket hari Jumat siapa?,hari=Jumat
+piket_hari_tertentu,Jumat siapa yang piket?,hari=Jumat
+piket_hari_tertentu,Tugas piket hari Jumat apa saja?,hari=Jumat
+piket_hari_tertentu,Ada siapa saja yang piket hari Jumat?,hari=Jumat
+
+piket_hari_tertentu,Siapa yang piket hari Sabtu?,hari=Sabtu
+piket_hari_tertentu,Jadwal piket hari Sabtu siapa?,hari=Sabtu
+piket_hari_tertentu,Sabtu siapa yang piket?,hari=Sabtu
+piket_hari_tertentu,Tugas piket hari Sabtu apa saja?,hari=Sabtu
+piket_hari_tertentu,Ada siapa saja yang piket hari Sabtu?,hari=Sabtu
+
+piket_hari_tertentu,Siapa yang piket hari Minggu?,hari=Minggu
+piket_hari_tertentu,Jadwal piket hari Minggu siapa?,hari=Minggu
+piket_hari_tertentu,Minggu siapa yang piket?,hari=Minggu
+piket_hari_tertentu,Tugas piket hari Minggu apa saja?,hari=Minggu
+piket_hari_tertentu,Ada siapa saja yang piket hari Minggu?,hari=Minggu
+
+piket_berdasarkan_kelas,Siapa yang piket dari kelas 10A?,kelas=10A
+piket_berdasarkan_kelas,Tampilkan jadwal piket kelas 10A,kelas=10A
+piket_berdasarkan_kelas,Kelas 10A piket kapan saja?,kelas=10A
+piket_berdasarkan_kelas,10A piket di hari apa saja?,kelas=10A
+piket_berdasarkan_kelas,Jadwal piket anak-anak kelas 10A,kelas=10A
+
+piket_berdasarkan_kelas,Siapa yang piket dari kelas 10B?,kelas=10B
+piket_berdasarkan_kelas,Tampilkan jadwal piket kelas 10B,kelas=10B
+piket_berdasarkan_kelas,Kelas 10B piket kapan saja?,kelas=10B
+piket_berdasarkan_kelas,10B piket di hari apa saja?,kelas=10B
+piket_berdasarkan_kelas,Jadwal piket anak-anak kelas 10B,kelas=10B
+
+piket_berdasarkan_nama,Apakah Rani ada jadwal piket?,nama=Rani
+piket_berdasarkan_nama,Kapan Rani piket?,nama=Rani
+piket_berdasarkan_nama,Saya mau lihat jadwal piket Rani,nama=Rani
+piket_berdasarkan_nama,Piket Rani hari apa saja?,nama=Rani
+piket_berdasarkan_nama,Apakah Rani piket hari ini?,nama=Rani
+
+piket_berdasarkan_nama,Apakah Budi ada jadwal piket?,nama=Budi
+piket_berdasarkan_nama,Kapan Budi piket?,nama=Budi
+piket_berdasarkan_nama,Saya mau lihat jadwal piket Budi,nama=Budi
+piket_berdasarkan_nama,Piket Budi hari apa saja?,nama=Budi
+piket_berdasarkan_nama,Apakah Budi piket hari ini?,nama=Budi
