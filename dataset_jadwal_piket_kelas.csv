@@ -1,20 +1,20 @@
 hari,jam_mulai,jam_selesai,nama,tugas,kelas
 Senin,07:00,08:30,Rani,Membersihkan papan tulis,10A
-Senin,08:30,10:00,Budi,Menyapu lantai,10B
-Senin,10:00,11:30,Siti,Membuang sampah,10C
+Senin,08:30,10:00,Budi,Menyapu lantai,10A
+Senin,10:00,11:30,Siti,Membuang sampah,10A
 
 Selasa,07:00,08:30,Andi,Merapikan meja guru,10A
-Selasa,08:30,10:00,Dina,Menata kursi,10B
-Selasa,10:00,11:30,Tono,Membersihkan kaca,10C
+Selasa,08:30,10:00,Dina,Menata kursi,10A
+Selasa,10:00,11:30,Tono,Membersihkan kaca,10A
 
 Rabu,07:00,08:30,Nina,Mengepel lantai,10A
-Rabu,08:30,10:00,Ardi,Menghapus papan tulis,10B
-Rabu,10:00,11:30,Lina,Merapikan rak buku,10C
+Rabu,08:30,10:00,Ardi,Menghapus papan tulis,10A
+Rabu,10:00,11:30,Lina,Merapikan rak buku,10A
 
 Kamis,07:00,08:30,Bayu,Membuang sampah,10A
-Kamis,08:30,10:00,Salsa,Menata kursi,10B
-Kamis,10:00,11:30,Agus,Menyapu lantai,10C
+Kamis,08:30,10:00,Salsa,Menata kursi,10A
+Kamis,10:00,11:30,Agus,Menyapu lantai,10A
 
 Jumat,07:00,08:30,Wulan,Membersihkan papan tulis,10A
-Jumat,08:30,10:00,Reza,Mengepel lantai,10B
-Jumat,10:00,11:30,Fira,Merapikan meja guru,10C
+Jumat,08:30,10:00,Reza,Mengepel lantai,10A
+Jumat,10:00,11:30,Fira,Merapikan meja guru,10A
