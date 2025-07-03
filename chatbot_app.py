@@ -6,21 +6,14 @@ import torch.nn as nn
 import numpy as np
 import streamlit as st
 import pandas as pd
-import nltk
 
-from nltk.stem.porter import PorterStemmer
-
-stemmer = PorterStemmer()
-
+# Fungsi tokenize tanpa NLTK
 def tokenize(sentence):
-    try:
-        return nltk.word_tokenize(sentence)
-    except LookupError:
-        nltk.download('punkt')
-        return nltk.word_tokenize(sentence)
+    return sentence.lower().split()
 
+# Fungsi stem sederhana (manual lowercase saja, bisa tambah regex bila perlu)
 def stem(word):
-    return stemmer.stem(word.lower())
+    return word.lower()
 
 def bag_of_words(tokenized_sentence, all_words):
     tokenized_sentence = [stem(w) for w in tokenized_sentence]
@@ -64,8 +57,6 @@ model.eval()
 jadwal_df = pd.read_csv("dataset_jadwal_piket_kelas.csv")
 
 # Response generator berdasarkan intent dan entitas
-import random
-
 def get_response(intent, entity):
     if intent == "piket_hari_ini":
         hari_ini = pd.Timestamp.today().day_name()
@@ -89,7 +80,6 @@ def get_response(intent, entity):
         return "Tidak ditemukan jadwal piket yang sesuai."
 
 # Ekstrak entitas manual dari teks
-
 def extract_entity(text):
     hari_list = ["senin", "selasa", "rabu", "kamis", "jumat", "sabtu", "minggu"]
     entity = {}
@@ -114,7 +104,6 @@ def extract_entity(text):
     return entity
 
 # Prediksi intent
-
 def predict_class(sentence):
     sentence = tokenize(sentence)
     X = bag_of_words(sentence, all_words)
